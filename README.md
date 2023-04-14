@@ -10,3 +10,5 @@ in this case it would be "NOCALL2.html".
 
 3. Enter the Google API key in the html page (Line 16):
 <script src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAPS_API_KEY"></script>
+
+![Anaconda](https://user-images.githubusercontent.com/9722781/232010149-6830853d-05e7-4df2-b02b-b00907a45e6c.png)
