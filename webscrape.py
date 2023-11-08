@@ -35,7 +35,7 @@ for b in balloons:
 def getspots (nrspots):
 #    print("Fetching...")
 #    wiki = "http://wsprnet.org/olddb?mode=html&band=all&limit=" + str(nrspots) + "&findcall=&findreporter=&sort=spotnum"
-    wiki = "http://wsprnet.org/olddb?mode=html&band=20&limit=" + str(nrspots) + "&findcall=&findreporter=&sort=spotnum"
+    wiki = "http://wsprnet.org/olddb?mode=html&band=10&limit=" + str(nrspots) + "&findcall=&findreporter=&sort=spotnum"
     try:
         page = requests.get(wiki)
     except requests.exceptions.RequestException as e:
